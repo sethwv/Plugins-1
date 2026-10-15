@@ -2,44 +2,37 @@
 
 # Dispatchwrapparr
 
-**Version:** `1.7.4` | **Author:** jordandalley | **Last Updated:** Jun 14 2026, 23:09 UTC
+**Version:** `1.7.8` | **Author:** jordandalley | **Last Updated:** Sep 16 2026, 09:25 UTC
 
 An intelligent DRM/Clearkey capable stream profile for Dispatcharr
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://spdx.org/licenses/MIT.html) [![Discord](https://img.shields.io/badge/Discord-Discussion-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/channels/1340492560220684331/1422776847703212132) [![Repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/jordandalley/dispatchwrapparr)
 
-![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.25.0-brightgreen?style=flat-square)
+![Dispatcharr min](https://img.shields.io/badge/Dispatcharr_min-v0.31.0-brightgreen?style=flat-square)
 
 ## Downloads
 
 ### Latest Release
 
-- **Download:** [`dispatchwrapparr-latest.zip`](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.7.4/dispatchwrapparr-1.7.4.zip)
-- **Built:** Jun 14 2026, 23:10 UTC
-- **Source Commit:** [`ee12e6a`](https://github.com/Dispatcharr/Plugins/commit/ee12e6a51c08f7cacf436b528c10ad2faec9b2dd)
+- **Download:** [`dispatchwrapparr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/dispatchwrapparr-1.7.8/dispatchwrapparr-1.7.8.zip)
+- **Built:** Oct 15 2026, 19:45 UTC
+- **Source Commit:** [`0543ea1`](https://github.com/sethwv/Plugins-1/commit/0543ea1f4086b0da4e80e400422b2d0b72c70da9)
 
 **Checksums:**
 ```
-MD5:    1e0dd15dfad11042002ec4e37c11c0ae
-SHA256: 4fcc117cbf15f0d91f5a1a7b4fe7843057f50db5db09fb5ddf3f49f7d596b162
+MD5:    f281ea55aabc86f8eee9871ffc16ab63
+SHA256: f447addde40e9349c16c04e9e7d913f980b89c5b73840323cc3effaaed6562e1
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
-| `1.7.4` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.7.4/dispatchwrapparr-1.7.4.zip) | Jun 14 2026, 23:10 UTC | [`ee12e6a`](https://github.com/Dispatcharr/Plugins/commit/ee12e6a51c08f7cacf436b528c10ad2faec9b2dd) | 1e0dd15dfad11042002ec4e37c11c0ae | 4fcc117cbf15f0d91f5a1a7b4fe7843057f50db5db09fb5ddf3f49f7d596b162 |
-| `1.7.3` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.7.3/dispatchwrapparr-1.7.3.zip) | Jun 07 2026, 12:43 UTC | [`bc522f1`](https://github.com/Dispatcharr/Plugins/commit/bc522f1f01c094273bded4b7b66350dc62d039fa) | 1457925b992adaa9a88e0859f14cac7c | 2cdc92af862db8fc12e58defd96b38de46c7213f2a9d47c8b29fd3da109d464b |
-| `1.7.2` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.7.2/dispatchwrapparr-1.7.2.zip) | Jun 06 2026, 02:42 UTC | [`0d3e0b5`](https://github.com/Dispatcharr/Plugins/commit/0d3e0b5e7f0a11840589e5bd75ae4f2608d1722d) | 443e3e3a5d0868e95e66e31d2a133c8f | 00f5f8dad21427cbc317cc9c04d9442a5fe19ebfa6fbb9ebfc059e786dbf61ec |
-| `1.7.1` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.7.1/dispatchwrapparr-1.7.1.zip) | May 24 2026, 21:57 UTC | [`447eca9`](https://github.com/Dispatcharr/Plugins/commit/447eca99c56ceaa0e90d6f3b430f4027e7329025) | 39b03ca5cc4c809bc7e118e5258f2a52 | 5d56a759f1fb479dfb0c5f8ce525408510ad19598238c8f56dbca899e8e74f4a |
-| `1.7.0` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.7.0/dispatchwrapparr-1.7.0.zip) | May 22 2026, 04:46 UTC | [`ef5e336`](https://github.com/Dispatcharr/Plugins/commit/ef5e336dad2396db99535c190be7e6c58d8cb2f9) | 0b2a4e714d6541133b8a8dcf6849d9e0 | 93f3a833c585294fb396442172c399457413a1962607ac5bb01f69ffb3b70fd2 |
-| `1.6.2` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.6.2/dispatchwrapparr-1.6.2.zip) | Apr 28 2026, 01:30 UTC | [`44fbc6b`](https://github.com/Dispatcharr/Plugins/commit/44fbc6b96eebd52ea29b27fc371af3c20f997702) | f33c4a46e9012498858ac1770370888c | 49137d25684dfab53fd571aed6b94a2432fa2dcdfb6aa9629755b05bd0bcc02b |
-| `1.6.1` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.6.1/dispatchwrapparr-1.6.1.zip) | Apr 16 2026, 11:17 UTC | [`7ac9bb7`](https://github.com/Dispatcharr/Plugins/commit/7ac9bb7cacde52e3a3ba7a9a5925789c97c5f65b) | 2fe71caf70f35c68caae8760cab65034 | 0ee0ff2e49b363ce83eef7db68420581e52514191762a1f490ad10cd33481fe7 |
-| `1.6.0` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/dispatchwrapparr-1.6.0/dispatchwrapparr-1.6.0.zip) | Apr 02 2026, 13:11 UTC | [`2d4aba3`](https://github.com/Dispatcharr/Plugins/commit/2d4aba36b3e8546bef2dfd8efbb105e9f1c51638) | aa6727ebe8ce16bd23aa9f7f54e783f9 | 3e97ed6d1ab0e80c3cb4bb49980eb3dc001a5d7c20ba499dd0e1388fce3629f5 |
+| `1.7.8` | [Download](https://github.com/sethwv/Plugins-1/releases/download/dispatchwrapparr-1.7.8/dispatchwrapparr-1.7.8.zip) | Oct 15 2026, 19:45 UTC | [`0543ea1`](https://github.com/sethwv/Plugins-1/commit/0543ea1f4086b0da4e80e400422b2d0b72c70da9) | f281ea55aabc86f8eee9871ffc16ab63 | f447addde40e9349c16c04e9e7d913f980b89c5b73840323cc3effaaed6562e1 |
 
 ---
 
-**Maintainers:** michaelmurfy | **Source:** [Browse Plugin](https://github.com/Dispatcharr/Plugins/tree/main/plugins/dispatchwrapparr)
+**Maintainers:** michaelmurfy | **Source:** [Browse Plugin](https://github.com/sethwv/Plugins-1/tree/main/plugins/dispatchwrapparr)
 
 **Metadata:** [View full manifest](./manifest.json)
 
@@ -64,7 +57,6 @@ SHA256: 4fcc117cbf15f0d91f5a1a7b4fe7843057f50db5db09fb5ddf3f49f7d596b162
 ✅ **Extended Stream Type Detection** — Fallback option that checks MIME type of stream URL for streamlink plugin selection\
 ✅ **Streaming Radio Support with Song Information** — Play streaming radio to your TV with song information displayed on your screen for ICY and HLS stream types\
 ✅ **Automated Stream Variant Detection** — Detects streams with no video or no audio and muxes in the missing components for compatibility with most players\
-✅ **Packed audio support for HLS streams** — Automatically extracts timestamp data from Apple ID3 metadata in muxed HLS streams to ensure correct playback\
 ✅ **Support for SSAI/DAI** — Supports streams using SCTE-35 type discontinuities for Server-Side or Dynamic Ad Injection
 
 ---
@@ -125,7 +117,11 @@ Important notes about fragment options:
 
 ### 🧑‍💻 Using the 'clearkey' URL fragment for DRM decryption
 
-To use a clearkey for a particular stream using a URL fragment, simply create a custom m3u8 file that places the #clearkey=<clearkey> fragment at the end of the stream URL.
+Most DRM implementations apply consistent encryption across both audio and video streams by using the same key.
+
+In this instance, you can simply just supply a clearkey. The HLSDRM and DASHDRM plugins will ignore any Key ID (KID) supplied to it.
+
+To use a single clearkey for a particular stream using a URL fragment, simply create a custom m3u8 file that places the #clearkey=<clearkey> fragment at the end of the stream URL.
 
 Below is an example that could be used for Channel 4 (UK):
 
@@ -135,11 +131,24 @@ Below is an example that could be used for Channel 4 (UK):
 https://olsp.live.dash.c4assets.com/dash_iso_sp_tl/live/channel(c4)/manifest.mpd#clearkey=5ce85f1aa5771900b952f0ba58857d7a
 ```
 
-You can also add the cleakey fragment to the end of a URL of a channel that you add manually into Dispatcharr.
-
 More channels can be added to the same m3u8 file, and may also contain a mixture of DRM and non-DRM encrypted streams.
 
 Simply upload your m3u8 file into Dispatcharr, select a Dispatchwrapparr stream profile, and it'll do the rest.
+
+You can also add a cleakey fragment to the end of a URL of a stream being manually entered into Dispatcharr rather than administering a custom m3u8 file. This can be useful in testing.
+
+For more complex streams that contain different clearkeys for video and audio, two keys can be provided in the order of 'video,audio'.
+
+Streams which contain separate audio and video feeds, where only one is encrypted can specify 'none' as the key at the position.
+
+The below table provides real world examples of how the DASHDRM and HLSDRM streamlink plugins process clearkeys.
+
+| Example Fragment                                                                                        | Clearkey applied to VIDEO stream | Clearkey applied to AUDIO stream |
+| :---                                                                                                    | :---                             | :---                             |
+| #clearkey=a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0                                                              | a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0 | a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0 |
+| #clearkey=a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0,b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1                             | a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0 | b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1 |
+| #clearkey=a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0,none                                                         | a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0 | None (Unencrypted)               |
+| #clearkey=none,b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1                                                         | None (Unencrypted)               | b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1 |
 
 ### ▶️ Using the 'stream' URL fragment for manual stream variant/quality selection
 

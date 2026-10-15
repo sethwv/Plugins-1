@@ -2,7 +2,7 @@
 
 # reservoarr
 
-**Version:** `6.3.0` | **Author:** brko7 | **Last Updated:** Jun 22 2026, 13:41 UTC
+**Version:** `6.4.0` | **Author:** brko7 | **Last Updated:** Oct 14 2026, 14:48 UTC
 
 Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying
 
@@ -14,27 +14,25 @@ Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dyi
 
 ### Latest Release
 
-- **Download:** [`reservoarr-latest.zip`](https://github.com/Dispatcharr/Plugins/releases/download/reservoarr-6.3.0/reservoarr-6.3.0.zip)
-- **Built:** Jun 22 2026, 13:41 UTC
-- **Source Commit:** [`eb7cafa`](https://github.com/Dispatcharr/Plugins/commit/eb7cafab0a5d772d35cdb9a66bc914b407af9355)
+- **Download:** [`reservoarr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/reservoarr-6.4.0/reservoarr-6.4.0.zip)
+- **Built:** Oct 15 2026, 19:47 UTC
+- **Source Commit:** [`c5aa56b`](https://github.com/sethwv/Plugins-1/commit/c5aa56b2c0aa5634c1a9e84e335f9bd9adfd3ad6)
 
 **Checksums:**
 ```
-MD5:    906d3cbf78d776ebd61dcc416a4dae7c
-SHA256: 60b4717af9a90370bccee1fac96e825048bb53a8f0bbb3b0b7b632dc082cf716
+MD5:    46d46419b3dc05bb88646de5e4bb1b0c
+SHA256: 9a60fed3c2fc6ee7f145433d628f98a83ddeb6dbf0401ee066fefbbae31801be
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
-| `6.3.0` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/reservoarr-6.3.0/reservoarr-6.3.0.zip) | Jun 22 2026, 13:41 UTC | [`eb7cafa`](https://github.com/Dispatcharr/Plugins/commit/eb7cafab0a5d772d35cdb9a66bc914b407af9355) | 906d3cbf78d776ebd61dcc416a4dae7c | 60b4717af9a90370bccee1fac96e825048bb53a8f0bbb3b0b7b632dc082cf716 |
-| `6.2.3` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/reservoarr-6.2.3/reservoarr-6.2.3.zip) | Jun 21 2026, 18:14 UTC | [`c14f957`](https://github.com/Dispatcharr/Plugins/commit/c14f957d2bac2555b7a3285d2c0b07a7fd6d2292) | b91435d4472be9472b0b805fb11f9979 | 523c0b995c1d52aad3ed09787bb4f014b0d2d7f7a48ddf282941143d3de62912 |
-| `6.2.2` | [Download](https://github.com/Dispatcharr/Plugins/releases/download/reservoarr-6.2.2/reservoarr-6.2.2.zip) | Jun 21 2026, 10:55 UTC | [`0b6a475`](https://github.com/Dispatcharr/Plugins/commit/0b6a47541c02b2684893a76e4e0275e0ce1e1733) | 2a628f3eee4486514134e02c65ea19f6 | 178380a7608d34c660c77a1488f8ea9faa67ee3f57842433dd6951b876a6a331 |
+| `6.4.0` | [Download](https://github.com/sethwv/Plugins-1/releases/download/reservoarr-6.4.0/reservoarr-6.4.0.zip) | Oct 15 2026, 19:47 UTC | [`c5aa56b`](https://github.com/sethwv/Plugins-1/commit/c5aa56b2c0aa5634c1a9e84e335f9bd9adfd3ad6) | 46d46419b3dc05bb88646de5e4bb1b0c | 9a60fed3c2fc6ee7f145433d628f98a83ddeb6dbf0401ee066fefbbae31801be |
 
 ---
 
-**Maintainers:** brko7 | **Source:** [Browse Plugin](https://github.com/Dispatcharr/Plugins/tree/main/plugins/reservoarr)
+**Maintainers:** brko7 | **Source:** [Browse Plugin](https://github.com/sethwv/Plugins-1/tree/main/plugins/reservoarr)
 
 **Metadata:** [View full manifest](./manifest.json)
 
