@@ -2,7 +2,7 @@
 
 # Ranked Matchups (Top Games)
 
-**Version:** `1.35.0` | **Author:** Jacob-Lasky | **Last Updated:** Oct 15 2026, 17:08 UTC
+**Version:** `1.36.0` | **Author:** Jacob-Lasky | **Last Updated:** Oct 16 2026, 14:29 UTC
 
 Never miss a good game. Scores every upcoming game across 39 leagues, tours and competitions (22 of them soccer, plus NFL, NBA, MLB, NHL, NCAA D1 football and basketball, UFC, boxing, tennis, golf and motorsport), then builds a Top Matchups group holding only the ones worth watching and shows why each game ranked where it did in its EPG description. Finished games can clear themselves out and be replaced from a bench of the next-best fixtures.
 
@@ -12,20 +12,21 @@ Never miss a good game. Scores every upcoming game across 39 leagues, tours and 
 
 ### Latest Release
 
-- **Download:** [`dispatcharr-ranked-matchups-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/dispatcharr-ranked-matchups-1.35.0/dispatcharr-ranked-matchups-1.35.0.zip)
-- **Built:** Oct 15 2026, 19:45 UTC
-- **Source Commit:** [`cd25137`](https://github.com/sethwv/Plugins-1/commit/cd25137b98fb22f49124d5604341dbd2a7a5c3ca)
+- **Download:** [`dispatcharr-ranked-matchups-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/dispatcharr-ranked-matchups-1.36.0/dispatcharr-ranked-matchups-1.36.0.zip)
+- **Built:** Oct 27 2026, 15:19 UTC
+- **Source Commit:** [`aaac7b4`](https://github.com/sethwv/Plugins-1/commit/aaac7b46076be8379e4bc9a0adc97e51807401c5)
 
 **Checksums:**
 ```
-MD5:    b3614d3934c2ecadc09bf756a349659e
-SHA256: f1d1d5980fcdeff90c93834c1b7e8ff2c71808a2f3aae30346041568ead92deb
+MD5:    10f714d203c969838e1e0b4fa5fae8bd
+SHA256: 4d3aa5843174a8cc708d8b3846af52e3f1c1dda968af71138ad21ee6e3f0a61a
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.36.0` | [Download](https://github.com/sethwv/Plugins-1/releases/download/dispatcharr-ranked-matchups-1.36.0/dispatcharr-ranked-matchups-1.36.0.zip) | Oct 27 2026, 15:19 UTC | [`aaac7b4`](https://github.com/sethwv/Plugins-1/commit/aaac7b46076be8379e4bc9a0adc97e51807401c5) | 10f714d203c969838e1e0b4fa5fae8bd | 4d3aa5843174a8cc708d8b3846af52e3f1c1dda968af71138ad21ee6e3f0a61a |
 | `1.35.0` | [Download](https://github.com/sethwv/Plugins-1/releases/download/dispatcharr-ranked-matchups-1.35.0/dispatcharr-ranked-matchups-1.35.0.zip) | Oct 15 2026, 19:45 UTC | [`cd25137`](https://github.com/sethwv/Plugins-1/commit/cd25137b98fb22f49124d5604341dbd2a7a5c3ca) | b3614d3934c2ecadc09bf756a349659e | f1d1d5980fcdeff90c93834c1b7e8ff2c71808a2f3aae30346041568ead92deb |
 
 ---

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:48:11Z",
+  "generated_at": "2026-10-27T15:21:00Z",
   "manifest": {
     "slug": "segmentarr",
     "name": "Segmentarr",
@@ -15,31 +15,38 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-10-09T14:25:33Z",
+    "download_count": 2,
     "latest": {
       "version": "1.5.7",
       "commit_sha": "56c222040c2a2357c79de3d96d4142cbeeed01b6",
       "commit_sha_short": "56c2220",
+      "changelog": "402",
       "build_timestamp": "2026-10-15T19:47:13Z",
       "last_updated": "2026-10-09T14:25:33Z",
       "checksum_md5": "b80879859cbc0098a1e6088e75a98574",
       "checksum_sha256": "183da7034a01073b45ad30da5ea7b523ab0b41fbbcc9b469801a40494027ce13",
+      "min_dispatcharr_version": "",
+      "max_dispatcharr_version": "",
       "source_url": "https://github.com/Tw1zT3d2four7/Segmentarr/releases/download/v1.5.7/segmentarr.zip",
       "latest_url": "segmentarr-1.5.7/segmentarr-1.5.7.zip",
       "url": "segmentarr-1.5.7/segmentarr-1.5.7.zip",
-      "size": 272
+      "size": 272,
+      "download_count": 2
     },
     "versions": [
       {
         "version": "1.5.7",
         "commit_sha": "56c222040c2a2357c79de3d96d4142cbeeed01b6",
         "commit_sha_short": "56c2220",
+        "changelog": "402",
         "build_timestamp": "2026-10-15T19:47:13Z",
         "last_updated": "2026-10-09T14:25:33Z",
         "checksum_md5": "b80879859cbc0098a1e6088e75a98574",
         "checksum_sha256": "183da7034a01073b45ad30da5ea7b523ab0b41fbbcc9b469801a40494027ce13",
         "source_url": "https://github.com/Tw1zT3d2four7/Segmentarr/releases/download/v1.5.7/segmentarr.zip",
         "url": "segmentarr-1.5.7/segmentarr-1.5.7.zip",
-        "size": 272
+        "size": 272,
+        "download_count": 2
       }
     ]
   }

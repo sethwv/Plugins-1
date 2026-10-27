@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:48:11Z",
+  "generated_at": "2026-10-27T15:21:00Z",
   "manifest": {
     "slug": "dispatcharr-exporter",
     "name": "Dispatcharr Exporter",
@@ -11,31 +11,37 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-07-18T13:29:39-04:00",
+    "download_count": 2,
     "latest": {
       "version": "3.1.0",
       "commit_sha": "ddffa49420c5dd513a9a7876998a72ce295e2242",
       "commit_sha_short": "ddffa49",
+      "changelog": "183",
       "build_timestamp": "2026-10-15T19:45:44Z",
       "last_updated": "2026-07-18T13:29:39-04:00",
       "checksum_md5": "858a4b4a8018c23c6476dcce342ef18a",
       "checksum_sha256": "7fb3fffcb163d1f5f6513e1eab9a9e54bf10cecfb84630a47f103921a8fd1108",
       "min_dispatcharr_version": "v0.22.0",
+      "max_dispatcharr_version": "",
       "latest_url": "dispatcharr-exporter-3.1.0/dispatcharr-exporter-3.1.0.zip",
       "url": "dispatcharr-exporter-3.1.0/dispatcharr-exporter-3.1.0.zip",
-      "size": 143
+      "size": 143,
+      "download_count": 2
     },
     "versions": [
       {
         "version": "3.1.0",
         "commit_sha": "ddffa49420c5dd513a9a7876998a72ce295e2242",
         "commit_sha_short": "ddffa49",
+        "changelog": "183",
         "build_timestamp": "2026-10-15T19:45:44Z",
         "last_updated": "2026-07-18T13:29:39-04:00",
         "checksum_md5": "858a4b4a8018c23c6476dcce342ef18a",
         "checksum_sha256": "7fb3fffcb163d1f5f6513e1eab9a9e54bf10cecfb84630a47f103921a8fd1108",
         "min_dispatcharr_version": "v0.22.0",
         "url": "dispatcharr-exporter-3.1.0/dispatcharr-exporter-3.1.0.zip",
-        "size": 143
+        "size": 143,
+        "download_count": 2
       }
     ]
   }

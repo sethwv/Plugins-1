@@ -2,7 +2,7 @@
 
 # Event Channel Managarr
 
-**Version:** `1.26.2832019` | **Author:** PiratesIRC | **Last Updated:** Oct 10 2026, 20:25 UTC
+**Version:** `1.26.2981641` | **Author:** PiratesIRC | **Last Updated:** Oct 25 2026, 16:50 UTC
 
 Automates channel visibility by hiding channels without events and showing those with events, based on EPG data and channel names. Optionally manages dummy EPG for channels without real EPG.
 
@@ -14,20 +14,21 @@ Automates channel visibility by hiding channels without events and showing those
 
 ### Latest Release
 
-- **Download:** [`event-channel-managarr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/event-channel-managarr-1.26.2832019/event-channel-managarr-1.26.2832019.zip)
-- **Built:** Oct 15 2026, 19:46 UTC
-- **Source Commit:** [`39cf0ba`](https://github.com/sethwv/Plugins-1/commit/39cf0ba01aa2120e0ad1d42bfe5ac11813a8d4ad)
+- **Download:** [`event-channel-managarr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/event-channel-managarr-1.26.2981641/event-channel-managarr-1.26.2981641.zip)
+- **Built:** Oct 27 2026, 15:20 UTC
+- **Source Commit:** [`4d86769`](https://github.com/sethwv/Plugins-1/commit/4d867694d8e2ef82e0a5f3da4f0303738184df70)
 
 **Checksums:**
 ```
-MD5:    b4db356095d5cf3a106502dc029bf478
-SHA256: caa3a24791a4c5d59fac89094d4d7880759f3142c646344e5abdfafc0eb1a16f
+MD5:    9c683c54b9455d047508472c364bf80a
+SHA256: 7716643164ded2cad2f2d523beb6cf4252f4ac27f6a190fd962665456575bbe2
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.2981641` | [Download](https://github.com/sethwv/Plugins-1/releases/download/event-channel-managarr-1.26.2981641/event-channel-managarr-1.26.2981641.zip) | Oct 27 2026, 15:20 UTC | [`4d86769`](https://github.com/sethwv/Plugins-1/commit/4d867694d8e2ef82e0a5f3da4f0303738184df70) | 9c683c54b9455d047508472c364bf80a | 7716643164ded2cad2f2d523beb6cf4252f4ac27f6a190fd962665456575bbe2 |
 | `1.26.2832019` | [Download](https://github.com/sethwv/Plugins-1/releases/download/event-channel-managarr-1.26.2832019/event-channel-managarr-1.26.2832019.zip) | Oct 15 2026, 19:46 UTC | [`39cf0ba`](https://github.com/sethwv/Plugins-1/commit/39cf0ba01aa2120e0ad1d42bfe5ac11813a8d4ad) | b4db356095d5cf3a106502dc029bf478 | caa3a24791a4c5d59fac89094d4d7880759f3142c646344e5abdfafc0eb1a16f |
 
 ---

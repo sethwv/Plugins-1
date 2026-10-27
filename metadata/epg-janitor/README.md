@@ -2,7 +2,7 @@
 
 # EPG Janitor
 
-**Version:** `1.26.2832018` | **Author:** PiratesIRC | **Last Updated:** Oct 10 2026, 20:24 UTC
+**Version:** `1.26.2971931` | **Author:** PiratesIRC | **Last Updated:** Oct 24 2026, 16:03 UTC
 
 Scans for channels with EPG assignments but no program data. Auto-matches EPG to channels using intelligent fuzzy matching with aliases, removes EPG from hidden channels, and manages EPG assignments.
 
@@ -14,20 +14,21 @@ Scans for channels with EPG assignments but no program data. Auto-matches EPG to
 
 ### Latest Release
 
-- **Download:** [`epg-janitor-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/epg-janitor-1.26.2832018/epg-janitor-1.26.2832018.zip)
-- **Built:** Oct 15 2026, 19:46 UTC
-- **Source Commit:** [`81947ce`](https://github.com/sethwv/Plugins-1/commit/81947cefec13629f9e5579e772b879103ccfeb98)
+- **Download:** [`epg-janitor-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/epg-janitor-1.26.2971931/epg-janitor-1.26.2971931.zip)
+- **Built:** Oct 27 2026, 15:19 UTC
+- **Source Commit:** [`a936019`](https://github.com/sethwv/Plugins-1/commit/a936019d4a6d242aa44ea677a0f9591c776b738f)
 
 **Checksums:**
 ```
-MD5:    efd2962982e1cd37032600a84e2702a8
-SHA256: e120b41abeb582f1cc80b736501cb92f38fbf57eb8223b88f73a21bdfbdfeccc
+MD5:    93c6b8b0918a24bf2608d44e16ba18c6
+SHA256: f145ee0739b626b3b618eb4c639728cadad3872836b3a0f51b6894a1b8ad94fa
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.2971931` | [Download](https://github.com/sethwv/Plugins-1/releases/download/epg-janitor-1.26.2971931/epg-janitor-1.26.2971931.zip) | Oct 27 2026, 15:19 UTC | [`a936019`](https://github.com/sethwv/Plugins-1/commit/a936019d4a6d242aa44ea677a0f9591c776b738f) | 93c6b8b0918a24bf2608d44e16ba18c6 | f145ee0739b626b3b618eb4c639728cadad3872836b3a0f51b6894a1b8ad94fa |
 | `1.26.2832018` | [Download](https://github.com/sethwv/Plugins-1/releases/download/epg-janitor-1.26.2832018/epg-janitor-1.26.2832018.zip) | Oct 15 2026, 19:46 UTC | [`81947ce`](https://github.com/sethwv/Plugins-1/commit/81947cefec13629f9e5579e772b879103ccfeb98) | efd2962982e1cd37032600a84e2702a8 | e120b41abeb582f1cc80b736501cb92f38fbf57eb8223b88f73a21bdfbdfeccc |
 
 ---

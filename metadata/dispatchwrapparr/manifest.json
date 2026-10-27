@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:48:11Z",
+  "generated_at": "2026-10-27T15:21:00Z",
   "manifest": {
     "slug": "dispatchwrapparr",
     "name": "Dispatchwrapparr",
@@ -14,31 +14,37 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-09-16T09:25:12Z",
+    "download_count": 2,
     "latest": {
       "version": "1.7.8",
       "commit_sha": "0543ea1f4086b0da4e80e400422b2d0b72c70da9",
       "commit_sha_short": "0543ea1",
+      "changelog": "306",
       "build_timestamp": "2026-10-15T19:45:52Z",
       "last_updated": "2026-09-16T09:25:12Z",
       "checksum_md5": "f281ea55aabc86f8eee9871ffc16ab63",
       "checksum_sha256": "f447addde40e9349c16c04e9e7d913f980b89c5b73840323cc3effaaed6562e1",
       "min_dispatcharr_version": "v0.31.0",
+      "max_dispatcharr_version": "",
       "latest_url": "dispatchwrapparr-1.7.8/dispatchwrapparr-1.7.8.zip",
       "url": "dispatchwrapparr-1.7.8/dispatchwrapparr-1.7.8.zip",
-      "size": 47
+      "size": 47,
+      "download_count": 2
     },
     "versions": [
       {
         "version": "1.7.8",
         "commit_sha": "0543ea1f4086b0da4e80e400422b2d0b72c70da9",
         "commit_sha_short": "0543ea1",
+        "changelog": "306",
         "build_timestamp": "2026-10-15T19:45:52Z",
         "last_updated": "2026-09-16T09:25:12Z",
         "checksum_md5": "f281ea55aabc86f8eee9871ffc16ab63",
         "checksum_sha256": "f447addde40e9349c16c04e9e7d913f980b89c5b73840323cc3effaaed6562e1",
         "min_dispatcharr_version": "v0.31.0",
         "url": "dispatchwrapparr-1.7.8/dispatchwrapparr-1.7.8.zip",
-        "size": 47
+        "size": 47,
+        "download_count": 2
       }
     ]
   }

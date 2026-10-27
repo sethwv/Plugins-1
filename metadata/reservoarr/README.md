@@ -2,7 +2,7 @@
 
 # reservoarr
 
-**Version:** `6.4.0` | **Author:** brko7 | **Last Updated:** Oct 14 2026, 14:48 UTC
+**Version:** `6.5.0` | **Author:** brko7 | **Last Updated:** Oct 25 2026, 10:13 UTC
 
 Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dying
 
@@ -14,20 +14,21 @@ Delay-buffer stream profile that absorbs IPTV CDN gaps so Plex Live TV stops dyi
 
 ### Latest Release
 
-- **Download:** [`reservoarr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/reservoarr-6.4.0/reservoarr-6.4.0.zip)
-- **Built:** Oct 15 2026, 19:47 UTC
-- **Source Commit:** [`c5aa56b`](https://github.com/sethwv/Plugins-1/commit/c5aa56b2c0aa5634c1a9e84e335f9bd9adfd3ad6)
+- **Download:** [`reservoarr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/reservoarr-6.5.0/reservoarr-6.5.0.zip)
+- **Built:** Oct 27 2026, 15:20 UTC
+- **Source Commit:** [`1e7ee8e`](https://github.com/sethwv/Plugins-1/commit/1e7ee8e75194316b1879059216526e8c96b60070)
 
 **Checksums:**
 ```
-MD5:    46d46419b3dc05bb88646de5e4bb1b0c
-SHA256: 9a60fed3c2fc6ee7f145433d628f98a83ddeb6dbf0401ee066fefbbae31801be
+MD5:    f20a6ed95d636f12de600a48bb1463f0
+SHA256: 011b3b182975e50a25adbc1c572e245687b0da234d9c5e709f87ec168a8db597
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `6.5.0` | [Download](https://github.com/sethwv/Plugins-1/releases/download/reservoarr-6.5.0/reservoarr-6.5.0.zip) | Oct 27 2026, 15:20 UTC | [`1e7ee8e`](https://github.com/sethwv/Plugins-1/commit/1e7ee8e75194316b1879059216526e8c96b60070) | f20a6ed95d636f12de600a48bb1463f0 | 011b3b182975e50a25adbc1c572e245687b0da234d9c5e709f87ec168a8db597 |
 | `6.4.0` | [Download](https://github.com/sethwv/Plugins-1/releases/download/reservoarr-6.4.0/reservoarr-6.4.0.zip) | Oct 15 2026, 19:47 UTC | [`c5aa56b`](https://github.com/sethwv/Plugins-1/commit/c5aa56b2c0aa5634c1a9e84e335f9bd9adfd3ad6) | 46d46419b3dc05bb88646de5e4bb1b0c | 9a60fed3c2fc6ee7f145433d628f98a83ddeb6dbf0401ee066fefbbae31801be |
 
 ---

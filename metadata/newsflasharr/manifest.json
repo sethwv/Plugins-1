@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:48:11Z",
+  "generated_at": "2026-10-27T15:21:00Z",
   "manifest": {
     "slug": "newsflasharr",
     "name": "Newsflasharr",
@@ -13,25 +13,30 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-10-10T21:19:00Z",
+    "download_count": 2,
     "latest": {
       "version": "1.26.2832058",
       "commit_sha": "13822829cdf4fed14bf51148eceb56804a0c57b8",
       "commit_sha_short": "1382282",
+      "changelog": "420",
       "build_timestamp": "2026-10-15T19:46:43Z",
       "last_updated": "2026-10-10T21:19:00Z",
       "checksum_md5": "a1c76e77e51c92b684114d2fb6049be9",
       "checksum_sha256": "e96cf9c084f9f8c1c8d09dcbaaa59e9b46ff11253a118673acbc345317d1aa57",
       "min_dispatcharr_version": "v0.20.0",
+      "max_dispatcharr_version": "",
       "source_url": "https://github.com/PiratesIRC/Dispatcharr-Newsflasharr-Plugin/releases/download/1.26.2832058/Newsflasharr.zip",
       "latest_url": "newsflasharr-1.26.2832058/newsflasharr-1.26.2832058.zip",
       "url": "newsflasharr-1.26.2832058/newsflasharr-1.26.2832058.zip",
-      "size": 215
+      "size": 215,
+      "download_count": 2
     },
     "versions": [
       {
         "version": "1.26.2832058",
         "commit_sha": "13822829cdf4fed14bf51148eceb56804a0c57b8",
         "commit_sha_short": "1382282",
+        "changelog": "420",
         "build_timestamp": "2026-10-15T19:46:43Z",
         "last_updated": "2026-10-10T21:19:00Z",
         "checksum_md5": "a1c76e77e51c92b684114d2fb6049be9",
@@ -39,7 +44,8 @@
         "min_dispatcharr_version": "v0.20.0",
         "source_url": "https://github.com/PiratesIRC/Dispatcharr-Newsflasharr-Plugin/releases/download/1.26.2832058/Newsflasharr.zip",
         "url": "newsflasharr-1.26.2832058/newsflasharr-1.26.2832058.zip",
-        "size": 215
+        "size": 215,
+        "download_count": 2
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:48:11Z",
+  "generated_at": "2026-10-27T15:21:00Z",
   "manifest": {
     "slug": "pirate-weatharr-station",
     "name": "PWS - Pirate Weatharr Station",
@@ -12,31 +12,38 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-10-06T08:09:42Z",
+    "download_count": 1,
     "latest": {
       "version": "1.6.0",
       "commit_sha": "c2e3d69ab46b4bfc91ed80ae219cb234a7c7c60c",
       "commit_sha_short": "c2e3d69",
+      "changelog": "388",
       "build_timestamp": "2026-10-15T19:46:53Z",
       "last_updated": "2026-10-06T08:09:42Z",
       "checksum_md5": "9b47a3a8242e744b93a2a8a424bebe22",
       "checksum_sha256": "5b22d97a3526bc1e74f9f7b6b9cd449d65e485a6a0989f497c13427517cee64b",
+      "min_dispatcharr_version": "",
+      "max_dispatcharr_version": "",
       "source_url": "https://github.com/dexdeadly/pirate-weatharr-station/releases/download/v1.6.0/pirate-weatharr-station-1.6.0.zip",
       "latest_url": "pirate-weatharr-station-1.6.0/pirate-weatharr-station-1.6.0.zip",
       "url": "pirate-weatharr-station-1.6.0/pirate-weatharr-station-1.6.0.zip",
-      "size": 35837
+      "size": 35837,
+      "download_count": 1
     },
     "versions": [
       {
         "version": "1.6.0",
         "commit_sha": "c2e3d69ab46b4bfc91ed80ae219cb234a7c7c60c",
         "commit_sha_short": "c2e3d69",
+        "changelog": "388",
         "build_timestamp": "2026-10-15T19:46:53Z",
         "last_updated": "2026-10-06T08:09:42Z",
         "checksum_md5": "9b47a3a8242e744b93a2a8a424bebe22",
         "checksum_sha256": "5b22d97a3526bc1e74f9f7b6b9cd449d65e485a6a0989f497c13427517cee64b",
         "source_url": "https://github.com/dexdeadly/pirate-weatharr-station/releases/download/v1.6.0/pirate-weatharr-station-1.6.0.zip",
         "url": "pirate-weatharr-station-1.6.0/pirate-weatharr-station-1.6.0.zip",
-        "size": 35837
+        "size": 35837,
+        "download_count": 1
       }
     ]
   }

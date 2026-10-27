@@ -2,7 +2,7 @@
 
 # Channel Mapparr
 
-**Version:** `1.26.2881225` | **Author:** PiratesIRC | **Last Updated:** Oct 15 2026, 12:43 UTC
+**Version:** `1.26.2971911` | **Author:** PiratesIRC | **Last Updated:** Oct 24 2026, 15:39 UTC
 
 Standardizes broadcast (OTA) and premium/cable channel names using network data and channel lists. Supports M3U stream import, category organization, and fuzzy matching across about 42,600 channels in 13 countries.
 
@@ -14,20 +14,21 @@ Standardizes broadcast (OTA) and premium/cable channel names using network data 
 
 ### Latest Release
 
-- **Download:** [`channel-mapparr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/channel-mapparr-1.26.2881225/channel-mapparr-1.26.2881225.zip)
-- **Built:** Oct 15 2026, 19:45 UTC
-- **Source Commit:** [`2e4d8a9`](https://github.com/sethwv/Plugins-1/commit/2e4d8a9d05aa01b4f6c4f0cea38f34cbe5ecc8fa)
+- **Download:** [`channel-mapparr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/channel-mapparr-1.26.2971911/channel-mapparr-1.26.2971911.zip)
+- **Built:** Oct 27 2026, 15:19 UTC
+- **Source Commit:** [`b786c14`](https://github.com/sethwv/Plugins-1/commit/b786c1415f1c629c25bb5c2356ad9d7c2e7e8377)
 
 **Checksums:**
 ```
-MD5:    df503d0bca03c1cf4b3f5aea6f1d4ec2
-SHA256: 5014961f5d8c6834b00a276e1422be4674eb45916e11fcfcd3397df0e9e0884e
+MD5:    77211ee6ccd7ab69867fdea305bf4636
+SHA256: 7e8c41a78efe6b87adb9243d6cda864c53adbdd2b934580ea0139b58c73456bc
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.2971911` | [Download](https://github.com/sethwv/Plugins-1/releases/download/channel-mapparr-1.26.2971911/channel-mapparr-1.26.2971911.zip) | Oct 27 2026, 15:19 UTC | [`b786c14`](https://github.com/sethwv/Plugins-1/commit/b786c1415f1c629c25bb5c2356ad9d7c2e7e8377) | 77211ee6ccd7ab69867fdea305bf4636 | 7e8c41a78efe6b87adb9243d6cda864c53adbdd2b934580ea0139b58c73456bc |
 | `1.26.2881225` | [Download](https://github.com/sethwv/Plugins-1/releases/download/channel-mapparr-1.26.2881225/channel-mapparr-1.26.2881225.zip) | Oct 15 2026, 19:45 UTC | [`2e4d8a9`](https://github.com/sethwv/Plugins-1/commit/2e4d8a9d05aa01b4f6c4f0cea38f34cbe5ecc8fa) | df503d0bca03c1cf4b3f5aea6f1d4ec2 | 5014961f5d8c6834b00a276e1422be4674eb45916e11fcfcd3397df0e9e0884e |
 
 ---

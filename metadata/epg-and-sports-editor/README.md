@@ -2,7 +2,7 @@
 
 # EPG & Sports Editor
 
-**Version:** `0.5.08` | **Author:** jstevenscl | **Last Updated:** Oct 03 2026, 21:37 UTC
+**Version:** `0.5.14` | **Author:** jstevenscl | **Last Updated:** Oct 26 2026, 19:16 UTC
 
 Transform and clean your EPG data using regex and find/replace rules. Creates virtual copies of your sources — originals are never touched. Fills placeholder schedules for channels with no EPG, and includes a Sports Editor: automatically renames Auto Channel Sync-created sports channels, assigns matchup logos, and generates real Pregame/Live/Postgame EPG data by matching against a live public schedule (93 leagues — every major US team sport, 30+ soccer competitions, tennis, golf, NASCAR, F1, UFC/MMA/boxing/darts, and more). Renamed from EPGeditARR; existing installs carry their settings forward automatically.
 
@@ -12,20 +12,21 @@ Transform and clean your EPG data using regex and find/replace rules. Creates vi
 
 ### Latest Release
 
-- **Download:** [`epg-and-sports-editor-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/epg-and-sports-editor-0.5.08/epg-and-sports-editor-0.5.08.zip)
-- **Built:** Oct 15 2026, 19:46 UTC
-- **Source Commit:** [`d929e64`](https://github.com/sethwv/Plugins-1/commit/d929e64c0ea5aca533ef4b538fea6a5143761e66)
+- **Download:** [`epg-and-sports-editor-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/epg-and-sports-editor-0.5.14/epg-and-sports-editor-0.5.14.zip)
+- **Built:** Oct 27 2026, 15:19 UTC
+- **Source Commit:** [`252b220`](https://github.com/sethwv/Plugins-1/commit/252b220511758c2794b5f27a35517d932d4e3cce)
 
 **Checksums:**
 ```
-MD5:    1cd36d9eeddc2055ddb481802ad9f9d2
-SHA256: 39fffe5d75964c4244a6afd433dcea5d296a96c1e4380b712ed8d7adb3fbc66c
+MD5:    5766709ad3fcc549fcc4c2ea9150e631
+SHA256: adfb07eecb75f11e62ffd6740d567f4d6f66dbcc65d62ebfd7aed7c02a61087a
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `0.5.14` | [Download](https://github.com/sethwv/Plugins-1/releases/download/epg-and-sports-editor-0.5.14/epg-and-sports-editor-0.5.14.zip) | Oct 27 2026, 15:19 UTC | [`252b220`](https://github.com/sethwv/Plugins-1/commit/252b220511758c2794b5f27a35517d932d4e3cce) | 5766709ad3fcc549fcc4c2ea9150e631 | adfb07eecb75f11e62ffd6740d567f4d6f66dbcc65d62ebfd7aed7c02a61087a |
 | `0.5.08` | [Download](https://github.com/sethwv/Plugins-1/releases/download/epg-and-sports-editor-0.5.08/epg-and-sports-editor-0.5.08.zip) | Oct 15 2026, 19:46 UTC | [`d929e64`](https://github.com/sethwv/Plugins-1/commit/d929e64c0ea5aca533ef4b538fea6a5143761e66) | 1cd36d9eeddc2055ddb481802ad9f9d2 | 39fffe5d75964c4244a6afd433dcea5d296a96c1e4380b712ed8d7adb3fbc66c |
 
 ---

@@ -2,7 +2,7 @@
 
 # Could Not Dispatch
 
-**Version:** `0.5.0` | **Author:** PilaScat | **Last Updated:** Oct 06 2026, 23:20 UTC
+**Version:** `0.6.0` | **Author:** PilaScat | **Last Updated:** Oct 25 2026, 00:10 UTC
 
 Plays a looping image or video when every real stream on a channel has failed, so viewers see a message instead of a black screen. With an API key, it later sends the channel back to its first stream.
 
@@ -12,20 +12,21 @@ Plays a looping image or video when every real stream on a channel has failed, s
 
 ### Latest Release
 
-- **Download:** [`could-not-dispatch-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/could-not-dispatch-0.5.0/could-not-dispatch-0.5.0.zip)
-- **Built:** Oct 15 2026, 19:45 UTC
-- **Source Commit:** [`8e2b381`](https://github.com/sethwv/Plugins-1/commit/8e2b381c3088d1899c334452f36bcb201678c319)
+- **Download:** [`could-not-dispatch-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/could-not-dispatch-0.6.0/could-not-dispatch-0.6.0.zip)
+- **Built:** Oct 27 2026, 15:19 UTC
+- **Source Commit:** [`a137c8a`](https://github.com/sethwv/Plugins-1/commit/a137c8a20c712352f11477ed6251fdfdbd025bee)
 
 **Checksums:**
 ```
-MD5:    82e6b5ae22f415dbf37b5a2204950451
-SHA256: 59995d4a526216d2000b2dbe36a8dbb64aa0fb8b702685ad4c1844388e1b0ec4
+MD5:    c1834c471dc81cb08f40e710a486af24
+SHA256: 097a6a6337a556bea054c63608267b3f0d17ec7e3bfea88dbc0088f43de2d89b
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `0.6.0` | [Download](https://github.com/sethwv/Plugins-1/releases/download/could-not-dispatch-0.6.0/could-not-dispatch-0.6.0.zip) | Oct 27 2026, 15:19 UTC | [`a137c8a`](https://github.com/sethwv/Plugins-1/commit/a137c8a20c712352f11477ed6251fdfdbd025bee) | c1834c471dc81cb08f40e710a486af24 | 097a6a6337a556bea054c63608267b3f0d17ec7e3bfea88dbc0088f43de2d89b |
 | `0.5.0` | [Download](https://github.com/sethwv/Plugins-1/releases/download/could-not-dispatch-0.5.0/could-not-dispatch-0.5.0.zip) | Oct 15 2026, 19:45 UTC | [`8e2b381`](https://github.com/sethwv/Plugins-1/commit/8e2b381c3088d1899c334452f36bcb201678c319) | 82e6b5ae22f415dbf37b5a2204950451 | 59995d4a526216d2000b2dbe36a8dbb64aa0fb8b702685ad4c1844388e1b0ec4 |
 
 ---
@@ -67,6 +68,7 @@ From the Plugin Hub, or by unzipping the release into `/data/plugins`, which cre
 | Setting | What it does |
 |---|---|
 | Image or video | A path inside the data volume, such as `/data/offline.png`, or an `http(s)` link that is downloaded and cached |
+| Image or video when the provider is full | Optional, given the same way. Shown instead of the card above to a channel that reached the fallback because the provider had no free connection, see below. Needs the API key. Empty: one card for every channel |
 | Local port | Where the fallback listens inside the container. Change it only on a conflict |
 | Width, Height | Leave both at 0 to match the picture, up to 1920x1080. Set both to force a size; the picture is fitted inside and padded to keep its shape |
 | Frames per second | 25 by default. Jellyfin keeps the frame rate a session starts with, so a viewer who starts on the card at a lower rate keeps it after the channel is back. Upgrading from 0.3.3 or earlier keeps the value you saved, 5 unless you changed it: set 25 and press **Apply** |
@@ -94,7 +96,8 @@ alive, looping your file into MPEG-TS, and serves it over HTTP at
 The encoder starts when the first viewer arrives and stops fifteen seconds after the last
 one leaves, so an idle server costs nothing.
 
-Each channel gets a Dispatcharr custom stream of its own with that URL, attached with the
+Each channel gets a Dispatcharr custom stream of its own with that URL, followed by
+`?channel=<uuid>` so the fallback knows which channel is asking, attached with the
 highest order number, which puts it last in the failover list. Dispatcharr's own failover
 does the rest: it walks the channel's streams in order, and the fallback is the only one
 that cannot fail. A stream added to a channel later lands after the fallback, where the
@@ -178,6 +181,16 @@ a viewer switching channels with every connection in use lands on it. That chann
 as soon as a connection frees up, checked every two seconds, and a refusal for capacity is
 not counted as a try. If it lands on the card again within 30 seconds of that return, its
 streams are failing after all, and it waits like any other.
+
+With **Image or video when the provider is full** set, such a channel gets that card instead,
+so the message can say that every connection is in use. The choice is made when the channel
+reaches the fallback: the second card goes to a channel whose every source belongs to a
+provider account seen at its connection limit in the last 20 seconds; any other channel gets
+the usual card, and keeps the card it got until it leaves. A channel created after the last
+read of the channel list, done every 15 minutes, gets the usual card. Only these two cases
+can be told apart: Dispatcharr does not tell the plugin why each stream failed, so a broken
+link and a passing outage look the same. The second card is a second encoder, which runs
+only while someone watches it.
 
 **One edge case in failover order.** Dispatcharr rotates the alternate list starting from
 the current stream and wraps around. If the first stream of a channel was unavailable

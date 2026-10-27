@@ -2,7 +2,7 @@
 
 # Lineuparr
 
-**Version:** `1.26.2881058` | **Author:** PiratesIRC | **Last Updated:** Oct 15 2026, 11:03 UTC
+**Version:** `1.26.2901915` | **Author:** PiratesIRC | **Last Updated:** Oct 17 2026, 21:57 UTC
 
 Mirror real-world provider channel lineups by creating channel groups, channels, and fuzzy-matching IPTV streams to them.
 
@@ -14,20 +14,21 @@ Mirror real-world provider channel lineups by creating channel groups, channels,
 
 ### Latest Release
 
-- **Download:** [`lineuparr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/lineuparr-1.26.2881058/lineuparr-1.26.2881058.zip)
-- **Built:** Oct 15 2026, 19:46 UTC
-- **Source Commit:** [`b119e7e`](https://github.com/sethwv/Plugins-1/commit/b119e7ea6cb2726098fa4da7adfd94b9d1fc0543)
+- **Download:** [`lineuparr-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/lineuparr-1.26.2901915/lineuparr-1.26.2901915.zip)
+- **Built:** Oct 27 2026, 15:20 UTC
+- **Source Commit:** [`0d24250`](https://github.com/sethwv/Plugins-1/commit/0d24250ed3d41c58f7901674909f2b88042e892e)
 
 **Checksums:**
 ```
-MD5:    06c8e50b4a77457928d6326b2a141515
-SHA256: dfd4a3f9cffdfec1231ec115cddf6337e65734a1b3bedafa410fa6212263d34b
+MD5:    27cd180311813f78fdd46a5df2a007c0
+SHA256: ddc308dad8d17cc0d8c8c5f1fd451370dc2b33d7d2479dde46d9a6c3480505a4
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.2901915` | [Download](https://github.com/sethwv/Plugins-1/releases/download/lineuparr-1.26.2901915/lineuparr-1.26.2901915.zip) | Oct 27 2026, 15:20 UTC | [`0d24250`](https://github.com/sethwv/Plugins-1/commit/0d24250ed3d41c58f7901674909f2b88042e892e) | 27cd180311813f78fdd46a5df2a007c0 | ddc308dad8d17cc0d8c8c5f1fd451370dc2b33d7d2479dde46d9a6c3480505a4 |
 | `1.26.2881058` | [Download](https://github.com/sethwv/Plugins-1/releases/download/lineuparr-1.26.2881058/lineuparr-1.26.2881058.zip) | Oct 15 2026, 19:46 UTC | [`b119e7e`](https://github.com/sethwv/Plugins-1/commit/b119e7ea6cb2726098fa4da7adfd94b9d1fc0543) | 06c8e50b4a77457928d6326b2a141515 | dfd4a3f9cffdfec1231ec115cddf6337e65734a1b3bedafa410fa6212263d34b |
 
 ---
@@ -101,6 +102,10 @@ Over 200 built-in channel aliases, plus your own in JSON. Every setting and acti
 | `TZ_Azam-TV_lineup.json` | Azam TV | TZ | ~146 |
 | `TZ_DStv-Premium_lineup.json` | DStv Premium | TZ | ~192 |
 | `TZ_Combined_lineup.json` | TZ Combined (Azam TV + DStv Premium) | TZ | ~310 |
+| `DO_Altice_lineup.json` | Altice | DO | ~224 |
+| `DO_Claro_lineup.json` | Claro | DO | ~261 |
+| `DO_Combined_lineup.json` | DO Combined (Altice + Claro) | DO | ~309 |
+| `PE_Claro_lineup.json` | Claro Peru | PE | ~201 |
 
 The beIN MENA lineup is regional rather than single country, so its country filtering is partial. Its filename country code is QA, which rejects streams tagged for a country outside the region: an Australian, Belgian or French beIN feed will not attach to one of its channels. Streams tagged for another Middle East or North Africa country, and streams tagged AR for Arabic, are treated as untagged and are kept, which is deliberate because those are the tags the region's own feeds carry.
 

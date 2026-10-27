@@ -2,7 +2,7 @@
 
 # IPTV Checker
 
-**Version:** `1.26.2831712` | **Author:** PiratesIRC | **Last Updated:** Oct 10 2026, 17:16 UTC
+**Version:** `1.26.2901902` | **Author:** PiratesIRC | **Last Updated:** Oct 17 2026, 21:57 UTC
 
 Check IPTV stream status and quality with ffprobe, then rename, move, restore or delete channels based on the result. Judges a channel by all of its streams, so a working backup never marks it dead.
 
@@ -14,20 +14,21 @@ Check IPTV stream status and quality with ffprobe, then rename, move, restore or
 
 ### Latest Release
 
-- **Download:** [`iptv-checker-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/iptv-checker-1.26.2831712/iptv-checker-1.26.2831712.zip)
-- **Built:** Oct 15 2026, 19:46 UTC
-- **Source Commit:** [`25958e3`](https://github.com/sethwv/Plugins-1/commit/25958e37e0513376fd3fc7e6a4655c924006c8da)
+- **Download:** [`iptv-checker-latest.zip`](https://github.com/sethwv/Plugins-1/releases/download/iptv-checker-1.26.2901902/iptv-checker-1.26.2901902.zip)
+- **Built:** Oct 27 2026, 15:20 UTC
+- **Source Commit:** [`06c0d38`](https://github.com/sethwv/Plugins-1/commit/06c0d380e674e99b7fa98e5e0cf7b4914dd78eee)
 
 **Checksums:**
 ```
-MD5:    005f5b57f1a352323c2aa74a3e4ed33a
-SHA256: 6c1ded69ed4cbb6c536261682a55e0088a19099ec4a83cb799d2ed94bf2ca377
+MD5:    faca88cf2cfb2ace4ed681e9bd75af80
+SHA256: dfa15b723017d12efcb0855ca15dffebaac6c2aa30bc286556c01fdc87b31c9e
 ```
 
 ### All Versions
 
 | Version | Download | Built | Commit | MD5 | SHA256 |
 |---------|----------|-------|--------|-----|--------|
+| `1.26.2901902` | [Download](https://github.com/sethwv/Plugins-1/releases/download/iptv-checker-1.26.2901902/iptv-checker-1.26.2901902.zip) | Oct 27 2026, 15:20 UTC | [`06c0d38`](https://github.com/sethwv/Plugins-1/commit/06c0d380e674e99b7fa98e5e0cf7b4914dd78eee) | faca88cf2cfb2ace4ed681e9bd75af80 | dfa15b723017d12efcb0855ca15dffebaac6c2aa30bc286556c01fdc87b31c9e |
 | `1.26.2831712` | [Download](https://github.com/sethwv/Plugins-1/releases/download/iptv-checker-1.26.2831712/iptv-checker-1.26.2831712.zip) | Oct 15 2026, 19:46 UTC | [`25958e3`](https://github.com/sethwv/Plugins-1/commit/25958e37e0513376fd3fc7e6a4655c924006c8da) | 005f5b57f1a352323c2aa74a3e4ed33a | 6c1ded69ed4cbb6c536261682a55e0088a19099ec4a83cb799d2ed94bf2ca377 |
 
 ---
@@ -71,7 +72,7 @@ Other things it does:
 
 - Scheduled checks, including overnight windows that pause at a set time and resume where they
   left off on the next window.
-- An HTML report written to `/config/iptv_checker/report.html`, grouped by what you should do
+- An HTML report written to `/config/iptv_checker/report.html` (or to `/data/iptv_checker/reports/` when `/config` cannot be written), grouped by what you should do
   about each finding, and optionally emailed through the
   [Newsflasharr](https://github.com/PiratesIRC) plugin. It is one self-contained file that fetches
   nothing from the internet, so it reads the same in a mail client and on a television browser, and

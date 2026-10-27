@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T19:48:11Z",
+  "generated_at": "2026-10-27T15:21:00Z",
   "manifest": {
     "slug": "youtubearr",
     "name": "YouTubearr",
@@ -10,31 +10,37 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-09-16T12:55:53Z",
+    "download_count": 1,
     "latest": {
       "version": "1.40.1",
       "commit_sha": "e14ea92d80763c52784047f843aa76069b45c7c1",
       "commit_sha_short": "e14ea92",
+      "changelog": "307",
       "build_timestamp": "2026-10-15T19:48:05Z",
       "last_updated": "2026-09-16T12:55:53Z",
       "checksum_md5": "9baccc4371a71e8ae3d4df2d967da935",
       "checksum_sha256": "8888ff2990132750f001e051d136053ade878c0991ded10e1945f2477774dfb6",
       "min_dispatcharr_version": "v0.20.0",
+      "max_dispatcharr_version": "",
       "latest_url": "youtubearr-1.40.1/youtubearr-1.40.1.zip",
       "url": "youtubearr-1.40.1/youtubearr-1.40.1.zip",
-      "size": 5017
+      "size": 5017,
+      "download_count": 1
     },
     "versions": [
       {
         "version": "1.40.1",
         "commit_sha": "e14ea92d80763c52784047f843aa76069b45c7c1",
         "commit_sha_short": "e14ea92",
+        "changelog": "307",
         "build_timestamp": "2026-10-15T19:48:05Z",
         "last_updated": "2026-09-16T12:55:53Z",
         "checksum_md5": "9baccc4371a71e8ae3d4df2d967da935",
         "checksum_sha256": "8888ff2990132750f001e051d136053ade878c0991ded10e1945f2477774dfb6",
         "min_dispatcharr_version": "v0.20.0",
         "url": "youtubearr-1.40.1/youtubearr-1.40.1.zip",
-        "size": 5017
+        "size": 5017,
+        "download_count": 1
       }
     ]
   }
