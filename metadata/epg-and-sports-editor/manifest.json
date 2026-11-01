@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:21:00Z",
+  "generated_at": "2026-11-01T00:21:52Z",
   "manifest": {
     "slug": "epg-and-sports-editor",
     "name": "EPG & Sports Editor",
@@ -12,7 +12,7 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-10-26T19:16:03Z",
-    "download_count": 2,
+    "download_count": 3,
     "latest": {
       "version": "0.5.14",
       "commit_sha": "252b220511758c2794b5f27a35517d932d4e3cce",
@@ -28,7 +28,7 @@
       "latest_url": "epg-and-sports-editor-0.5.14/epg-and-sports-editor-0.5.14.zip",
       "url": "epg-and-sports-editor-0.5.14/epg-and-sports-editor-0.5.14.zip",
       "size": 174,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -43,7 +43,7 @@
         "source_url": "https://github.com/jstevenscl/epg-and-sports-editor/releases/download/v0.5.14/epg-and-sports-editor-v0.5.14.zip",
         "url": "epg-and-sports-editor-0.5.14/epg-and-sports-editor-0.5.14.zip",
         "size": 174,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "0.5.08",

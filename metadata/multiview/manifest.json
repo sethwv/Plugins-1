@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T15:21:00Z",
+  "generated_at": "2026-11-01T00:21:52Z",
   "manifest": {
     "slug": "multiview",
     "name": "Multiview",
@@ -11,7 +11,7 @@
     "registry_url": "https://github.com/sethwv/Plugins-1",
     "registry_name": "sethwv/Plugins-1",
     "last_updated": "2026-10-15T19:58:49Z",
-    "download_count": 2,
+    "download_count": 3,
     "latest": {
       "version": "0.5.0",
       "commit_sha": "db79a9f0d2accf70c4fc923bbdf5a6ef734427bb",
@@ -26,7 +26,7 @@
       "latest_url": "multiview-0.5.0/multiview-0.5.0.zip",
       "url": "multiview-0.5.0/multiview-0.5.0.zip",
       "size": 377,
-      "download_count": 0
+      "download_count": 1
     },
     "versions": [
       {
@@ -41,7 +41,7 @@
         "min_dispatcharr_version": "v0.27.0",
         "url": "multiview-0.5.0/multiview-0.5.0.zip",
         "size": 377,
-        "download_count": 0
+        "download_count": 1
       },
       {
         "version": "0.4.3",
